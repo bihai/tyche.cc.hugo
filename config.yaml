@@ -10,7 +10,8 @@ PaginatePath: paginator
 pygmentsStyle: "default"
 pygmentsUseClasses: true
 RSSUri: "feed.xml"
-disablePathToLower: true 
+disablePathToLower: true
+uglyURLs: true 
 hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:slug/

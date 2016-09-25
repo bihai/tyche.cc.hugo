@@ -35,8 +35,8 @@ class ChDir:
 
 def deploy(args):
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    #parent_dir = os.path.abspath(os.path.join(current_dir, '..'))
-    parent_dir = './'
+    parent_dir = os.path.abspath(os.path.join(current_dir, '..'))
+    #parent_dir = './'
     #print parent_dir
     public_dir = os.path.join(current_dir, 'public')
     #public_dir = ('public')
