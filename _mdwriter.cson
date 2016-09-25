@@ -46,8 +46,7 @@ categories:
     - "技术文章-article"
     - "灌水乐乐-post"
 keywords:
- - 编程
-url: {year}/{month}/{day}/{slug}/
+ - 编程, programming
 
 ---
 # title
