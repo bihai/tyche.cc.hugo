@@ -4,14 +4,14 @@ baseurl: "http://tyche.cc"
 copyright: "Copyright (c) 2016. All rights reserved."
 theme: "hugo-rapid-theme"
 MetaDataFormat: "yaml"
-canonifyurls: true
+canonifyurls: false
 builddrafts: false
 PaginatePath: paginator
 pygmentsStyle: "default"
 pygmentsUseClasses: true
 RSSUri: "feed.xml"
 disablePathToLower: true
-uglyURLs: true 
+uglyURLs: false
 hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:slug/

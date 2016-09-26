@@ -9,7 +9,7 @@ import shutil
 import argparse
 import subprocess
 
-__author__ = 'coderzh'
+__author__ = 'bihai'
 
 GIT_REPO = [
     ['origin',  'gh-pages', 'git@github.com:bihai/tyche.cc.git'],
@@ -47,14 +47,14 @@ def deploy(args):
         if os.path.exists(public_dir):
             shutil.rmtree(public_dir)
 
-        if args.type == 'auto':
-            subprocess.call('git fetch origin', shell=True)
-            subprocess.call('git checkout master', shell=True)
-            subprocess.call('git reset --hard origin/master', shell=True)
-            subprocess.call('git clean -fdx', shell=True)
-            subprocess.call('git submodule init', shell=True)
-            subprocess.call('git submodule update', shell=True)
-            subprocess.call('git submodule foreach git pull --rebase origin master', shell=True)
+        #if args.type == 'auto':
+            #subprocess.call('git fetch origin', shell=True)
+            #subprocess.call('git checkout master', shell=True)
+            #subprocess.call('git reset --hard origin/master', shell=True)
+            #subprocess.call('git clean -fdx', shell=True)
+            #subprocess.call('git submodule init', shell=True)
+            #subprocess.call('git submodule update', shell=True)
+            #subprocess.call('git submodule foreach git pull --rebase origin master', shell=True)
             
         # on windows set TERM=msys
         s = subprocess.Popen('git log -1 --pretty=format:"%s"',
