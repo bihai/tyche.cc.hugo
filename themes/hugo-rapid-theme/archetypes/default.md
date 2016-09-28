@@ -8,9 +8,10 @@ categories:
 keywords:
     - 编程 programming
 
+author: bihai
+
 ---
 
 
-by bihai of http://tyche.cc
 
 

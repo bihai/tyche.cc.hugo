@@ -1,6 +1,6 @@
 title: "tyche.cc"
 languageCode: "zh-CN"
-baseurl: "http://tyche.cc"
+baseurl: "http://tyche.cc/"
 copyright: "Copyright (c) 2016. All rights reserved."
 theme: "hugo-rapid-theme"
 MetaDataFormat: "yaml"

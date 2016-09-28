@@ -8,7 +8,8 @@ description: ""
 keywords:
 - 编程 programming
 title: "Welcome to tyche.cc"
-by: bihai @ http://tyche.cc
+
+author: bi hai
 
 ---
 
