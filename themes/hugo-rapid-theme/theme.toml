@@ -3,12 +3,12 @@
 
 name = "rapid"
 license = "MIT"
-licenselink = "https://github.com/bihai/tyche.cc"
+licenselink = "https://github.com/bihai/tyche.cc/blob/master/LICENSE.md"
 description = ""
 homepage = "http://tyche.cc/"
 tags = ["", ""]
 features = ["", ""]
-min_version = 0.15
+min_version = 0.14
 
 [author]
   name = ""

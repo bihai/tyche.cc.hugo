@@ -4,13 +4,12 @@
     <div class="nav-toggle"><i class="fa fa-bars"></i></div>
     <div class="nav-text"><!-- put your mobile menu text here --></div>
     <div class="nav-wrap container">
-      <a rel="nofollow" href="{{ .Site.BaseURL }}/" class="nav-cs-icon" >
-          <img src="/public/bihai.jpg" alt="bihai" style="float:left;width:32px;height:32px;padding-top:5px;" title="Home">
-        </a>
-        
+      <a rel="nofollow" href="{{ .Site.BaseURL }}/" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
       <ul id="menu-default-menu" class="nav container-inner group">
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/">首页-home</a>
+          <a rel="nofollow" href="/">首页</a>
         </li>
         {{ range .Site.Params.Categories }}
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
@@ -38,12 +37,7 @@
           <div class="search-expand-inner">
             <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
               <div>
-<<<<<<< HEAD
-                <input name=tn type=hidden value=baidu>
-                <input type="text" class="search"  name="word" placeholder="Press enter to start searching">
-=======
                 <input type="text" class="search" name="word" placeholder="Press enter to start searching">
->>>>>>> d039fdaad6d937203c0447cfb9a2c263796e8afb
               </div>
             </form>
           </div>

@@ -8,14 +8,12 @@ description: ""
 keywords:
 - 编程 programming
 title: "Welcome to tyche.cc"
-<<<<<<< HEAD
-
-author: bi hai
-=======
-by: bihai @ http://tyche.cc
->>>>>>> fd65170b2dc0d9ac0ebd07675f009da4ca03a504
-
+author: “bi hai”
+photos:
+- https://www.hdwallpapers.net/previews/starry-night-over-corsica-986.jpg
+- https://www.hdwallpapers.net/previews/water-plant-close-up-979.jpg
 ---
+![nhew](https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381)
 
 
 ## tyche.cc = Torch your confidence, hope & emotion.

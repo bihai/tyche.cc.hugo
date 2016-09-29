@@ -1,6 +1,6 @@
 (function (w) {
     var $ = w.jQuery,
-        done = false,x` x`
+        done = false,
         ready = function () {
             $('form.searchform').on('submit', function (event) {
                 if (false === done) {
