@@ -1,8 +1,8 @@
 title: "tyche.cc"
 languageCode: "zh-CN"
-baseurl: "http://bihaiorg.eicp.net/"
+baseurl: "http://bihaiorg.eicp.net:8080/"
 copyright: "Copyright (c) 2016. All rights reserved."
-theme: "hugo-icarus-theme"
+theme: "hugo-rapid-theme"
 MetaDataFormat: "yaml"
 canonifyurls: false
 builddrafts: false
