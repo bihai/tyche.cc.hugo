@@ -1,8 +1,8 @@
 title: "tyche.cc"
 languageCode: "zh-CN"
-baseurl: "http://bihaiorg.eicp.net:8080/"
+baseurl: "http://tyche.cc/"
 copyright: "Copyright (c) 2016. All rights reserved."
-theme: "hugo-rapid-theme"
+theme: "hugo-rapid-themex"
 MetaDataFormat: "yaml"
 canonifyurls: false
 builddrafts: false
@@ -24,7 +24,7 @@ params:
   SidebarRecentLimit: 5
   DateForm : "2016年01月02日"
   Tagline: "tyche.cc"
-  Description: "tyche.cc =  Torch your confidence, hope & emotion."
+  Description: "tyche.cc your confidence, hope & emotion."
   Keywords: "blog,basic,language,notes,share"
   Categories:
     - "心得笔记-blog"
